@@ -1,4 +1,4 @@
-package practice;
+package exam1;
 
 public class RareItem {
     public static void main(String[] args) {

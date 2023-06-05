@@ -1,4 +1,4 @@
-package practice;
+package exam2;
 
 public class Gamble {
     public static void main(String[] args) {
@@ -8,10 +8,12 @@ public class Gamble {
     }
 
     public static int dice() {
-        return (int) (Math.random() * 6 + 1);
+        /* Math.random() 메소드를 활용하여 1~6 사이의 정수를 반환하도록 하시오 */
+        return 0;
     }
 
     public static double exchange(double dollar) {
-        return 1082.25108 * dollar;
+        /* 입력받은 달러를 환전하여 반환 하시오 */
+        return 0;
     }
 }

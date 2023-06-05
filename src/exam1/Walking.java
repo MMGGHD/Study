@@ -1,4 +1,4 @@
-package practice;
+package exam1;
 
 public class Walking {
     public static void main(String[] args) {

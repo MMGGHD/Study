@@ -1,4 +1,4 @@
-package practice;
+package exam2;
 
 public class Gasoline {
     public static void main(String[] args) {
@@ -8,7 +8,8 @@ public class Gasoline {
         System.out.printf("연비: %.2f km/L", efficiency);
     }
 
-    public static double calcEffiency(Double fuel, double distance) {
-        return distance / fuel;
+    public static double calcEffiency(double fuel, double distance) {
+        /* 해당 메소드를 구현 하세요 */
+        return 0;
     }
 }
