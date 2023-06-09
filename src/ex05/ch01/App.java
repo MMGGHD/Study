@@ -2,60 +2,10 @@ package ex05.ch01;
 
 public class App {
 
-    static void attack(Zealot u1, Dragoon u2) { // 스택별로 인식하는것이 다르기 때문에 매개변수에 주소값을 전달해야한다.
-
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-
-    }
-
-    static void attack(Zealot u1, Zealot u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(Zealot u1, DarkTempler u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(Dragoon u1, Zealot u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(Dragoon u1, Dragoon u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(Dragoon u1, DarkTempler u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(DarkTempler u1, Zealot u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(DarkTempler u1, DarkTempler u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
-    }
-
-    static void attack(DarkTempler u1, Dragoon u2) {
-        u2.hp = u2.hp - u1.attack;
-        System.out.println(u2.name + "이 공격당했습니다.");
-        System.out.println(u2.name + "의 남은 hp : " + u2.hp);
+    static void attack(Protoss u1, Protoss u2) {
+        u2.setHp(u2.getHp() - u1.getAttack());
+        System.out.println(u2.getName() + "이 " + u1.getName() + "에게 공격당했습니다.");
+        System.out.println(u2.getName() + "의 남은 hp : " + u2.getHp());
 
     }
 
@@ -76,12 +26,5 @@ public class App {
         attack(dt2, dt1);
         attack(dt1, d1);
         attack(dt1, z1);
-        // 오버로딩 체험하기
-        System.out.println();
-        System.out.println(1);
-        System.out.println(1.1);
-        System.out.println('가');
-        System.out.println("문자열");
-        System.out.println(true);
     }
 }

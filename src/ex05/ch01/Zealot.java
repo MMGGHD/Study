@@ -1,6 +1,6 @@
 package ex05.ch01;
 
-public class Zealot {
+public class Zealot extends Protoss {
     String name;
     int hp;
     int attack;
@@ -11,4 +11,19 @@ public class Zealot {
         this.attack = attack;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
 }

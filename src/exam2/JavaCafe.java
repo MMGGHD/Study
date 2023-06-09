@@ -25,5 +25,6 @@ public class JavaCafe {
             pay = pay + basePay * 0.5 * (hours - 40);
         }
         System.out.printf("$ %.2f\n", pay);
+        Math.abs(-1);
     }
 }
