@@ -19,19 +19,12 @@ class Mathy {
     }
 
     public Mathy(int a, int b) {
-        System.out.println("매개변수 생성자");
-        number = a;
-        multi = b;
     }
 }
 
 public class CodeTest {
     public static void main(String[] args) {
-        Mathy obj = new Mathy();
-        System.out.println(obj.add(30, 6));
-        System.out.println(obj.number);
-        System.out.println(obj.multi);
-        System.out.println(obj.total);
+        System.out.println(5 / 5);
     }
 
 }
