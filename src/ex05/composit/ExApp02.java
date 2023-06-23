@@ -15,6 +15,9 @@ public class ExApp02 {
         BurgerSet bs4 = new BurgerSet(new BigBurger(2200), new Coke(300), new Potato(100));
         bs3.printTotalPrice();
         bs4.printTotalPrice();
+        System.out.println(c2);
+        System.out.println(bs);
+        System.out.println(bs2);
 
     }
 }

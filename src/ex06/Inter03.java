@@ -14,13 +14,7 @@ class Car implements CarAble {
     private void a1() {
     }
 
-    private void a2() {
-    }
-
     private void a3() {
-    }
-
-    private void a4() {
     }
 
     private void a5() {

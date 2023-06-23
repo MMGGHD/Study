@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeTest02",
+            "request": "launch",
+            "mainClass": "practice.CodeTest02",
+            "projectName": "study_626bcc5c"
+        },
+        {
+            "type": "java",
             "name": "Meth03copy",
             "request": "launch",
             "mainClass": "ex04.Meth03copy",

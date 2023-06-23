@@ -14,5 +14,11 @@ public class ExApp01 {
         System.out.println("---------------");
         BigBurger bb3 = new BigBurger(1100);
         System.out.println("---------------");
+        System.out.println(b1);
+        System.out.println(b2);
+        System.out.println(b3);
+        System.out.println(bb1);
+        System.out.println(bb2);
+        System.out.println(bb3);
     }
 }
